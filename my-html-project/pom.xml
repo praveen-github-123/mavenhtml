@@ -13,7 +13,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!-- Update source and target versions to at least 1.8 -->
+    <!-- Update source and target versions to at least 1.8 (Java 8) -->
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -40,12 +40,11 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-        <!-- Update the Maven Compiler Plugin version to 3.8.1 -->
+        <!-- Compiler plugin with source and target version set to 1.8 (Java 8) -->
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+          <version>3.8.0</version>
           <configuration>
-            <!-- Update source and target versions to at least 1.8 -->
             <source>1.8</source>
             <target>1.8</target>
           </configuration>
